@@ -9,7 +9,7 @@ const pinRoute = require("./routes/pins")
 
 dotenv.config();
 
-app.use(express.json())//now you use thing ass json to post and get
+app.use(express.json())
 
 mongoose.connect( process.env.Mongo_url ).then(()=>{
     console.log("Mongodb connetec");
@@ -20,4 +20,4 @@ app.use("/api/pins", pinRoute);
 
 app.listen(9999 , ()=>{ 
     console.log("backend start")
-}) 
+})

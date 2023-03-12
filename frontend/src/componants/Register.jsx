@@ -34,7 +34,7 @@ export default function Register({setShowRegister}){
 		<div className="registerContainer">
 			<div className="logo">
 				<Room/>
-				LamaPin
+				AmanPin
 			</div>
 				<form onSubmit = {handleSubmit}>
 					<input type="text" placeholder="username" ref={nameRef}/>

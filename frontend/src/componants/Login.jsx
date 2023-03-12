@@ -33,7 +33,7 @@ export default function Login({setShowLogin,myStroage , setCurrentUser}){
 		<div className="loginContainer">
 			<div className="logo">
 				<Room/>
-				LamaPin
+				AmanPin
 			</div>
 				<form onSubmit = {handleSubmit}>
 					<input type="text" placeholder="username" ref={nameRef}/>

@@ -144,7 +144,7 @@ function App() {
         onClose={()=>setCurrentPlaceId(null)}
         >
 
-        <div className="card">  
+        <div className="card">   
 
           <label>Place</label>
           <h4 className="place">{p.title}</h4>
